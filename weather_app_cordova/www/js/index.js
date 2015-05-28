@@ -45,13 +45,13 @@ $(document).ready(function() {
     var stateUrl = $("#state").val().toLowerCase();
     var searchURL = cityUrl + ',' + stateUrl;
     var src = "http://api.openweathermap.org/data/2.5/weather?q=" + searchURL;
-    console.log(src);
+
     $.ajax({
       type: "GET",
       dataType: "json",
       url: src,
-      success: function(data) {
-        $(".weather").html("Current weather in " + cityUrl + ", " + stateUrl + " is " + data["weather"][0]["main"]);
+      success: function(data) {        
+        $(".weather").html("Current weather in " + cityUrl + ", " + stateUrl + " is " + data["weather"][0]["description"]);
       }
     });
   });
