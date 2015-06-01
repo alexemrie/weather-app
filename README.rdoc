@@ -1,28 +1,13 @@
-== README
+What is the title of this post?
+http://jsonip.com
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+assign the ip to a variable, then display it on the index page
+http://www.telize.com/geoip?callback=?
 
-Things you may want to cover:
+find the longitute and lattitude of the current IP, then display it on the index page
+http://www.flickr.com/services/feeds/photos_public.gne?tags=spring_flowers&format=json
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Find a picture that you like, apply it to the background of the body element on the index page.
+Make it take up the entirety of the background
+As discussed in class, the callback expects a jsonFlickrFeed function to be defined.
+http://api.openweathermap.org/data/2.5/weather?q=dallas,tx
