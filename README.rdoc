@@ -1,13 +1,13 @@
-What is the title of this post?
-http://jsonip.com
-
-assign the ip to a variable, then display it on the index page
+Assigned ip to variable and displayed on index page.
 http://www.telize.com/geoip?callback=?
 
-find the longitute and lattitude of the current IP, then display it on the index page
+Longitute and lattitude of the current IP displayed on the index page.
 http://www.flickr.com/services/feeds/photos_public.gne?tags=spring_flowers&format=json
 
-Find a picture that you like, apply it to the background of the body element on the index page.
-Make it take up the entirety of the background
-As discussed in class, the callback expects a jsonFlickrFeed function to be defined.
 http://api.openweathermap.org/data/2.5/weather?q=dallas,tx
+
+cd into weather_app_cordova/www
+
+run http-server
+
+Go to http://localhost:8080/.
